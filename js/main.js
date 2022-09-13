@@ -62,5 +62,5 @@ function atualizaEstatisticas(peca) {
 
 function alterarCorRobo(cor) {
     const robotron = document.querySelector('#robotron')
-    
+    robotron.setAttribute('src', `img/Robotron-2000-${cor}.png`)
 }
